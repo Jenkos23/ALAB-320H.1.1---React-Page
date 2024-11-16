@@ -9,10 +9,10 @@
     display: flex;  /* Use flexbox to align items horizontally */
     align-items: center;  /* Vertically align items in the center */
     background-color: #f4f4f4;  /* Light background for the rectangular container */
-    border-radius: 8px;  /* Optional: rounded corners for the rectangle */
+    border-radius: 0;  /* Optional: rounded corners for the rectangle */
     /* padding: 15px; */
     border: .2px solid red;
-    margin-bottom: 10px; 
+    /* margin-bottom: 10px;  */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     
   }
@@ -20,7 +20,7 @@
   .employee-img {
     width: 60px;  /* Control image size */
     height: 60px;  /* Control image size */
-    border-radius: 50%;  /* Make image circular */
+    border-radius: 50%; /* Make image circular */
     object-fit: cover;  /* Make sure image covers the circle without stretching */
     margin-right: 15px;  /* Space between the image and text */
   }
