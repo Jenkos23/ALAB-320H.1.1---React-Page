@@ -1,0 +1,42 @@
+.staff-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+  .employee-item {
+    display: flex;  /* Use flexbox to align items horizontally */
+    align-items: center;  /* Vertically align items in the center */
+    background-color: #f4f4f4;  /* Light background for the rectangular container */
+    border-radius: 8px;  /* Optional: rounded corners for the rectangle */
+    /* padding: 15px; */
+    border: .2px solid red;
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .employee-img {
+    width: 60px;  /* Control image size */
+    height: 60px;  /* Control image size */
+    border-radius: 50%;  /* Make image circular */
+    object-fit: cover;  /* Make sure image covers the circle without stretching */
+    margin-right: 15px;  /* Space between the image and text */
+  }
+  
+  .employee-details {
+    flex-grow: 1;  /* Make the details section fill the remaining space */
+  }
+  
+  .employee-name {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .employee-job {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+  }

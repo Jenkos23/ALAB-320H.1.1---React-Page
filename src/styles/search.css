@@ -1,0 +1,10 @@
+#SearchBar {
+    border: 1px solid green; /* Changed the border to 1px for better visibility */
+    display: flex;
+    width: 80%; /* Adjust to your needs to cover space */
+    margin: 0 auto; /* Center the element horizontally */
+    position: relative; /* Allows for positioning adjustments */
+    left: 10px; /* Adjust this value to position it a bit to the right (or use negative for left) */
+    padding: 10px; /* Optional: adds padding inside the search bar */
+    box-sizing: border-box; /* Ensures padding is included in width/height */
+}
